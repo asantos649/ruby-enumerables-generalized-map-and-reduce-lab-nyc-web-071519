@@ -10,7 +10,6 @@ end
 
 def reduce (array, startingpoint = 0)
   count = 0 
-  output = startingpoint
   while array[count] do 
     yield(output, startingpoint)
     count += 1 
