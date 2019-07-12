@@ -13,6 +13,10 @@ def reduce (array, startingpoint = 0)
   output = startingpoint
   while array[count] do 
     output = yield(output, array[count])
+    if [array[count]
+    else
+      return false
+    end
     count += 1 
   end 
   output
