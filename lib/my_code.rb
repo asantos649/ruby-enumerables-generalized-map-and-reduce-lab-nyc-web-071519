@@ -16,6 +16,7 @@ def reduce (array, startingpoint = 0)
       output = yield(output, array[count])
     else
       output = false
+    end
   #  if array[count] = true
   #  else
   #    return false
