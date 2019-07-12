@@ -12,7 +12,10 @@ def reduce (array, startingpoint = 0)
   count = 0 
   output = startingpoint
   while count < array.length do 
-    output = yield(output, array[count])
+    if array[count]
+      output = yield(output, array[count])
+    else
+      output = false
   #  if array[count] = true
   #  else
   #    return false
