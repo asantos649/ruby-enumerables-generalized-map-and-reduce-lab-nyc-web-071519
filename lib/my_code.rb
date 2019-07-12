@@ -15,5 +15,5 @@ def reduce (array, startingpoint = 0)
     count += 1 
   end 
   
-  output
+  yeild
 end
