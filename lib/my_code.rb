@@ -13,9 +13,9 @@ def reduce (array, startingpoint = 0)
   output = startingpoint
   while count < array.length do 
     output = yield(output, array[count])
-    if array[count] = true
-    else
-      return false
+  #  if array[count] = true
+  #  else
+  #    return false
     end
     count += 1 
   end 
