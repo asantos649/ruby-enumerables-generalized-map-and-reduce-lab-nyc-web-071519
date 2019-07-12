@@ -16,7 +16,7 @@ def reduce (array, startingpoint = 0)
   #  if array[count] = true
   #  else
   #    return false
-    end
+  #  end
     count += 1 
   end 
   output
