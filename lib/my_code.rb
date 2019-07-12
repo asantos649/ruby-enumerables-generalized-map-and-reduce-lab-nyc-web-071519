@@ -11,7 +11,7 @@ end
 def reduce (array, startingpoint = 0)
   count = 0 
   while array[count] do 
-    output = yeild
+    yeild
     count += 1 
   end 
   
