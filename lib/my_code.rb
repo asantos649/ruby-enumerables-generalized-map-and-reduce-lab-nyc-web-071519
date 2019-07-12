@@ -11,9 +11,9 @@ end
 def reduce (array, startingpoint = 0)
   count = 0 
   while array[count] do 
-    yeild
+    yield
     count += 1 
   end 
   
-  yeild
+  yieldld
 end
